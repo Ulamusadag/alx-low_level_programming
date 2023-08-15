@@ -1,19 +1,18 @@
 #include <stdio.h>
 
-/*
+/**
  * main - End point
  *
- * Description: ghfdfd
+ * Description: print all alphabet
  *
- * Return: 0 (success)
- *
+ * Return: 0 (Success)
 */
 
 int main(void)
 {
-
 	char ch;
-        for(ch = 'a'; ch >= 'z'; ch++)
+
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		putchar(ch);
 	}
