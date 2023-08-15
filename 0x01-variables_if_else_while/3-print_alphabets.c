@@ -13,18 +13,18 @@ int main(void)
 	char sm = 'a';
 	char bg = 'A';
 
-	while (sm <= z)
+	while (sm <= 'z')
 	{
-		putchar("sm");
-		sm++
+		putchar(sm);
+		sm++;
 
 	}
-	while (bg <= Z)
+	while (bg <= 'Z')
 	{
-		putchar("bg");
-		bg++
-
+		putchar(bg);
+		bg++;
 	}
-	putchar("\n")
-	return (0)
+	putchar("\n");
+
+	return (0);
 }
