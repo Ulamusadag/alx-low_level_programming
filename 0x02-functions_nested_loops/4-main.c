@@ -5,8 +5,9 @@
  * main - check the code.
  *
  * Description: ojio.
+ *
  * Return: Always 0.
- */
+*/
 int main(void)
 {
     int r;
