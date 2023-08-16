@@ -9,19 +9,15 @@
  * Return: 0 (success)
 */
 
-int main(void)
+void print_alphabet(void)
 {
-	void print_alphabet(void)
+	char ch = 'a';
+	while (ch <= 'z')
 	{
-		char ch = 'a';
-
-		while (ch <= 'z')
-		{
-			_putchar(ch);
-			ch++;
-		}
-	}
+		_putchar(ch);
+		ch++;
+i	}
 	_putchar('\n');
-	return (0);
 
 }
+
