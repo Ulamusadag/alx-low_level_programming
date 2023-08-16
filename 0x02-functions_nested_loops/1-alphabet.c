@@ -2,11 +2,7 @@
 #include "main.h"
 
 /**
- * main - End point
- *
- * Description: hfnndndg
- *
- * Return: 0 (success)
+ * print_alphabet - print all alphabet
 */
 
 void print_alphabet(void)
