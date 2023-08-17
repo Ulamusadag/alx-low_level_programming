@@ -2,7 +2,11 @@
 #include "main.h"
 
 /**
- * islower - hlhl
+ * _islower - hlhl
+ *
+ * &c: param
+ *
+ * Return: 0
 */
 
 int _islower(int c)
