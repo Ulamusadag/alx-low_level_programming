@@ -4,7 +4,7 @@
 /**
  * _islower - hlhl
  *
- * &c: param
+ * @c: param
  *
  * Return: 0
 */
