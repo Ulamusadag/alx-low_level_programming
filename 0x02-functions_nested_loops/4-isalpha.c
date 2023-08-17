@@ -2,7 +2,11 @@
 #include "main.h"
 
 /**
- * isalpha - vvh
+ * _isalpha - vvh
+ *
+ * @c: param.
+ *
+ * Return: 0
 */
 
 int _isalpha(int c)
