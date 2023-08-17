@@ -4,8 +4,6 @@
 /**
  * jack_bauer - fgzze
  *
- * @n: param
- *
  * Return: 0
 */
 
@@ -24,5 +22,7 @@ void jack_bauer(void)
 			_putchar((min % 10) + 48);
 
 		}
+		_putchar('\n');
 	}
+
 }
