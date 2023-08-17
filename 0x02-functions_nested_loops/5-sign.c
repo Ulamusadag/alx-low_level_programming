@@ -2,13 +2,9 @@
 #include "main.h"
 
 /**
- * int - param
+ * print_sign - print
  *
- * print_sign - kfgmffm
- *
- * @n - param
- *
- *
+ * @n: param
  *
  * Return: return 0 or -1 or +1
 */
