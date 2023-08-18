@@ -3,7 +3,7 @@
 
 /**
 *print_square - ghfgfg
-*@n: ghfgnf
+*@size: ghfgnf
 *Return: 0
 */
 
@@ -13,7 +13,7 @@ void print_square(int size)
 
 	for (i = 0; i <= size - 1; i++)
 	{
-		for (i =0; i <= size - 1; i++)
+		for (i = 0; i <= size - 1; i++)
 		{
 			if (size <= 0)
 			{
