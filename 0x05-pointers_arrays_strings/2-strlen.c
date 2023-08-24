@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * int _strlen - ftdy
+ *_strlen - ftdy
  * @s: utfjf
  * Return: 0
 */
