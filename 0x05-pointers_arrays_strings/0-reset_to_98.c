@@ -3,7 +3,7 @@
 
 /**
  * reset_to_98 - gmfdtrhd
- * *n: hbghvjgm
+ * @n: hbghvjgm
  * Return: 0
 */
 
