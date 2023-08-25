@@ -2,10 +2,10 @@
 #include "main.h"
 
 /*
- * puts2 - tfued
- * @str: gkftyi
- * Description: ghfjcjt
- * Return: 0
+*puts2 - tfued
+*@str: gkftyi
+*Description: ghfjcjt
+*Return: 0
 */
 
 void puts2(char *str)
