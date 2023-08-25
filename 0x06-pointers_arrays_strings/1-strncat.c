@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include "main"
+#include "main.h"
 
 /**
  * _strncat - hvgjm
@@ -16,7 +16,7 @@ char *_strncat(char *dest, char *src, int n)
 
 	for (i = 0; dest[i] != '\0'; i++)
 
-	for (j = n; src[j] != '\0'; j++)
+	for (j = n; j < n && src[j] != '\0'; j++)
 	{
 		dest[i] = src[j];
 
