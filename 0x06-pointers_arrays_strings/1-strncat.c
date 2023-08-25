@@ -6,14 +6,21 @@
  * _strncat - hvgjm
  * @dest: fhfdg
  * @src: ghdgdf
+ * @int: vhg
+ * Return: 0
 */
 
-char *_strncat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
-	char *ptr;
+	int i, j;
 
-	ptr = strcat(*dest, *src);
+	for (i = 0; dest[i] != '\0'; i++);
 
+	for (j = n; src[j] != '\0'; j++)
+	{
+		dest[i] = src[j];
+		i++;
+	}
 	return (dest);
 
 }
