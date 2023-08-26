@@ -3,6 +3,7 @@
 
 /**
  * string_toupper - hgh
+ * @s: hbjh
  * Return: 0
 */
 
