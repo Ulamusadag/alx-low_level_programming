@@ -3,31 +3,32 @@
 
 /**
  * cap_string - hhgg,c
- * @str: gvhgf
+ * @s: gvhgf
  * Return: 0
 */
 
-char *cap_string(char *str)
+char *cap_string(char *s)
 {
 	char spr[13] = {' ', '\t', '\n', ',', ';', '.',
 	'!', '?', '"', '(', ')', '{', '}'};
 	int i, j;
 
-	for (i = 0; str[i] != '\0'; i++)
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		for (j = 0; spr[j] < 13; j++)
+		if (i == 0 && s[i] >= 'a' && s[i] <= 'z')
+			s[i] -= 32;
+		for (j = 0; j < 13; j++)
 		{
-			if (str[i] >= 'a' && str[i] <= 'z')
-				return (char (str[i] -= 32));
-			if (str[i] == spr[j])
+			if (s[i] == spr[j])
 			{
-				return (char (str[i]));
+				if (s[i + 1] >= 'a' && s[i + 1] <= 'z')
+				{
+					s[i + 1] -= 32;
+				}
 			}
 		}
 	}
-	str[i] = '\0';
-
-	return (str);
+	return (s);
 
 
 }
