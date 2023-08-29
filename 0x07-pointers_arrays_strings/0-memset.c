@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
-*memeset - ghcfg
+*_memset - ghcfg
 *@s: fgddn
 *@b: vgm
 *@n:mbhbjh

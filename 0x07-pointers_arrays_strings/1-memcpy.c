@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
-*memcpy - fggndrgnd
+*_memcpy - fggndrgnd
 *@dest: hgjh
 *@src: hfftyj
 *@n: gh
