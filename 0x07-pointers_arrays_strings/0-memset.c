@@ -2,10 +2,11 @@
 #include "main.h"
 
 /**
- * memeset - ghcfg
- * @s: fgddn
- * @b: vgm
- * @n:mbhbjh
+*memeset - ghcfg
+*@s: fgddn
+*@b: vgm
+*@n:mbhbjh
+*Return: s
 */
 
 char *_memset(char *s, char b, unsigned int n)
@@ -19,5 +20,5 @@ char *_memset(char *s, char b, unsigned int n)
 	}
 
 	return (s);
-	
+
 }
