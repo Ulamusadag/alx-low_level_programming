@@ -7,26 +7,26 @@
  * @val:gyyt
  * Return: hghfg
 */
-int sqrt(int n, val);
+int sqrt_r(nt n, int val);
 int _sqrt_recursion(int n)
 {
-	return (sqrt(n, 1));
+	return (sqrt_r(n, 1));
 
 }
 
 /**
- * sqrt - jjhgh
+ * sqrt_r - jjhgh
  * @n: nhgvh
  * @val: hbjhb
  * Return: gjf
 */
 
-int sqrt(int n, val)
+int sqrt_r(int n, int val)
 {
-	if (val *val == n)
+	if (val * val == n)
 		return (val);
-	else if (val *val < n)
-		return (sqrt(n, val + 1));
+	else if (val * val < n)
+		return (sqrt_r(n, val + 1));
 	else
 		return (-1);
 }
