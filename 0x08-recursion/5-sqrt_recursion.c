@@ -7,7 +7,7 @@
  * @val:gyyt
  * Return: hghfg
 */
-int sqrt_r(nt n, int val);
+int sqrt_r(int n, int val);
 int _sqrt_recursion(int n)
 {
 	return (sqrt_r(n, 1));
