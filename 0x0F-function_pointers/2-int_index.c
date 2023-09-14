@@ -6,6 +6,7 @@
  * @array: ngvgh
  * @size: ghjh
  * @cmp:tfhg
+ * Return: hkjbjh
 */
 
 int int_index(int *array, int size, int (*cmp)(int))
