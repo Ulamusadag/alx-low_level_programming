@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "lists.h"
 
 /**
  * add_node - guy
@@ -19,7 +20,7 @@ list_t *add_node(list_t **head, const char *str)
 	new = malloc(sizeof(list_t));
 	if (!new)
 		return (NULL);
-	new->str = str;
+	new->str = strdup(str);
 	new->len = len;
 	new->next = (*head);
 	(*head) = new;
