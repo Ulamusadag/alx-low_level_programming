@@ -1,4 +1,4 @@
-#include "link.h"
+#include "lists.h"
 
 /**
  * print_list - function that prints nodes
