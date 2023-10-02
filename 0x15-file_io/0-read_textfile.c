@@ -3,7 +3,7 @@
 
 /**
  * read_textfile - ghfghfm
- * @filname:jft
+ * @filename:jft
  * @letters: fhdnhd
  * Return: gfm
 */
